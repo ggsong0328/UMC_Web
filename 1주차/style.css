@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+}
+
+h1 {
+  color: black;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+body {
+  background-image: url(UMC\ 뭔가\ 간지나는\ 배경1\ 2.svg);
+  background-size: cover;
+}
+
+.login {
+  background-color: #9295a0;
+  background-color: rgb(146, 149, 160, 0.9);
+  margin: auto;
+  width: 915px;
+  height: 495px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 20px;
+  justify-items: center;
+  margin-top: 14%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.id {
+  width: 40%;
+  position: relative;
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+  opacity: 0.5;
+  border-bottom: solid 1px white;
+  color: white;
+  margin-top: 50px;
+  line-height: 2;
+}
+
+.password {
+  width: 40%;
+  position: relative;
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+  opacity: 0.5;
+  border-bottom: solid 1px white;
+  color: white;
+  margin-top: 30px;
+  line-height: 2;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 110%;
+}
+
+.submit {
+  width: 40%;
+  padding: 10px;
+  background-color: #353535;
+  border-radius: 15px;
+  border: none;
+  margin-top: 45px;
+  color: white;
+  margin-bottom: 60px;
+  font-size: 130%;
+}
+
+span {
+  font-size: 90%;
+}
