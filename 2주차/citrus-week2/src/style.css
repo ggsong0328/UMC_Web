@@ -1,0 +1,134 @@
+html {
+  height: 100%;
+}
+
+h1 {
+  color: black;
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+body {
+  background-image: url(UMC\ 뭔가\ 간지나는\ 배경1\ 2.svg);
+  background-size: cover;
+}
+
+hr {
+  width: 450px;
+  margin: 0px auto;
+}
+
+.Legend {
+  display: block;
+  text-align: left;
+  padding-left: 105px;
+  color: rgb(255, 255, 255, 0.3);
+  padding-top: 20px;
+  font-size: 13px;
+}
+
+.login-wrapper {
+  background-color: rgb(146, 149, 160, 0.9);
+  margin: 10% auto;
+  margin-top: 5%;
+  width: 800px;
+  height: 750px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 10%;
+  padding-left: 10%;
+  justify-items: center;
+}
+
+.input {
+  width: 55%;
+  position: relative;
+  box-sizing: border-box;
+  background: transparent;
+  opacity: 0.5;
+  border: solid 2px white;
+  border-radius: 5px;
+  color: white;
+  line-height: 2;
+}
+
+.err {
+  display: block;
+  text-align: left;
+  padding-left: 105px;
+  font-size: 13px;
+}
+
+#btn:disabled {
+  width: 55%;
+  padding: 10px;
+  background-color: rgb(142, 142, 142);
+  border-radius: 15px;
+  border: none;
+  margin-top: 45px;
+  color: white;
+  margin-bottom: 60px;
+  font-size: 130%;
+}
+
+#btn {
+  width: 55%;
+  padding: 10px;
+  background-color: rgb(53, 53, 53);
+  border-radius: 15px;
+  border: none;
+  margin-top: 45px;
+  color: white;
+  margin-bottom: 60px;
+  font-size: 130%;
+}
+
+.login-success {
+  position: fixed;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 250px;
+  padding: 20px 15px;
+  margin: 0 auto;
+  border: 1px solid #777;
+  background-color: #fff;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#cbtn {
+  float: right;
+  width: 15%;
+  height: 10%;
+  font-size: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-weight: bold;
+}
