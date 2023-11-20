@@ -1,0 +1,42 @@
+.Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  text-align: center;
+}
+
+.Input {
+  margin: 0 auto;
+}
+
+input {
+  border-radius: 100px;
+  height: 30px;
+  width: 175px;
+  line-height: 30px;
+}
+
+.WeatherData {
+  margin: 0 auto;
+  margin-top: 60px;
+  border: 3px solid black;
+  border-radius: 15px;
+  width: 175px;
+  padding: 10px;
+}
+
+.City {
+  text-align: left;
+  margin: 10px;
+}
+
+.Temp {
+  font-size: 300%;
+  margin: 10px;
+}
+
+.Cloud {
+  text-align: right;
+  margin: 10px;
+}

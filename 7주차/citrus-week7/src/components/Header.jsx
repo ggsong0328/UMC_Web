@@ -31,7 +31,7 @@ export default function Header() {
             </li>
             <li>
               <Link className="header-nav-item" to="/login">
-                <button>로그인</button>
+                <button className="button-style">로그인</button>
               </Link>
             </li>
           </ul>
